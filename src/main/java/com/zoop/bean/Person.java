@@ -6,6 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix="person")
 public class Person {
 
+    private int  id;
     private  String name;
 
     private int age;
